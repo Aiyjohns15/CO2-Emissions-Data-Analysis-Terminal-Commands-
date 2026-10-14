@@ -94,7 +94,7 @@ row. Column numbers for reference: `country`=1, `iso_code`=2, `year`=3,
 `population`=4, `gdp`=5, `co2`=6.
 
 ```bash
-# TODO: a command that prints the first 6 values from a single column
+ awk -F',' '{print $1,$2,$3,$4,$5}' co2_emissions_2022.csv |head -n 7 
 # (repeat this for at least 5 of the 6 columns, swapping in each column's number)
 ```
 
