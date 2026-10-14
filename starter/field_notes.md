@@ -139,19 +139,19 @@ cut -d',' -f2 co2_emissions_2022.csv | tail -n +2 | grep -c '^$'
 36
 
 ```bash
-# TODO: the same idea, but for the gdp column
+cut -d',' -f5 co2_emissions_2022.csv | tail -n +2 | grep -c '^$'
 ```
 
 **Output:**
-_TODO_
+89
 
 List **at least 2** specific things you'd want to know about how this
 dataset was collected, before trusting any conclusion drawn from it — ground
 at least one in the counts you just found.
 
 **My 2 concerns:**
-1. _TODO_
-2. _TODO_
+1. Why are there multiple missing values throughout the data set.
+2. There are instances win teh country column where the data point is not actually a country such as "Africa".
 
 ## 6. Data-quality question for the source
 
