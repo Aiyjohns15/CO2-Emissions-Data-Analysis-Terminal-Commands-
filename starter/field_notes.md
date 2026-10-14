@@ -102,25 +102,25 @@ Fill in the table from what you actually saw — not a guess from the column
 name alone:
 
 | Column | Inferred type | How I can tell |
-|---|---|---|
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
+| --- | --- | ---
+| country | string | all text no numbers|
+| iso_code | string | all text no numbers |
+| year | integer | whole numbers |
+| population | integer | whole numbers|
+| gdp | integer | whole numbers |
 
 **In your own words:** what's the actual difference between a list/array
 and a table? (Not a definition you looked up — explain it the way you'd
 explain it to a friend who's never coded. No command needed for this one,
 just think about the table you just filled in above.)
 
-_TODO_
+A list/array is a single linear set of data while a table is data organized into rows and colums.
 
 ## 4. Structured or unstructured?
 
 State whether this dataset is structured or unstructured, and why.
 
-_TODO_
+The dataset is structured because the data is organized into rows and columns.
 
 ## 5. Before you trust this data
 
@@ -132,12 +132,11 @@ You may need more than one command for this — piping (`|`) feeds one
 command's output into the next as input.
 
 ```bash
-# TODO: a command (or combination) that counts how many rows have a
-# BLANK iso_code
+cut -d',' -f2 co2_emissions_2022.csv | tail -n +2 | grep -c '^$'  
 ```
 
 **Output:**
-_TODO_
+36
 
 ```bash
 # TODO: the same idea, but for the gdp column
