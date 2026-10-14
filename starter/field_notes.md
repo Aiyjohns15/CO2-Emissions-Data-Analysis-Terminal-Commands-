@@ -179,7 +179,7 @@ grep -n "Sudan" co2_emissions_2022.csv
 219:South Sudan,SSD,2022,11021175,,1.634
 222:Sudan,SDN,2022,49383344,,17.529
 
-**My question:** _TODO_
+**My question:** How are co2 emissions per capita being calculated and what is the direct correlation between co2 emissions and population size?
 
 ## 8. AI-literacy reflection
 
@@ -190,10 +190,10 @@ fact before relying on it professionally — specific enough that you could
 actually follow it, not "I'll be careful."
 
 **Risks:**
-1. _TODO_
-2. _TODO_
+1. The AI could provide fake data that isn't actually in the data set
+2. AI could confidently give incorrect information due to the missing values in the set
 
-**My rule:** _TODO_
+**My rule:** Always double check an AI response either manually or with a credible source.
 
 ## 9. Something that went wrong (and how you figured it out)
 
@@ -204,10 +204,10 @@ this at least once. Paste the actual command and what actually happened
 fix — not "I googled it and it worked."
 
 ```bash
-# TODO: a command that errored, or gave you unexpected results
+awk -F',' '{print $1}' co2_emissions_2022.csv |head -n 7|
 ```
 
 **What happened:**
-_TODO: the actual error message, or the unexpected output you got_
+I didn't recieve and error message but I was unable to continue typing any lines of code in my terminal
 
-**What it told me and how I fixed it:** _TODO_
+**What it told me and how I fixed it:** I fixed it by doing "ctrl + c" to clear the terminal as was recommended by a peer, then checking for typos and correcting my syntax error.
