@@ -160,7 +160,7 @@ phrase it as a real question you'd send to the data's source/maintainer. A
 good test: could they actually answer it with a concrete yes/no or fact —
 not "is this data good?"
 
-_TODO_
+How was the data colleted per country and why are some of the values in the country column not actual countries? Were certain countires from continents grouped together due to population size or were they just overlooked?
 
 ## 7. Something you're actually curious about
 
@@ -170,12 +170,14 @@ curious to explore using this data? Pick two specific countries you're
 curious to compare, and look up their full rows.
 
 ```bash
-# TODO: a command that finds a specific country's row by name (repeat for
-# a second country of your choice)
+grep -n "Australia" co2_emissions_2022.csv
+grep -n "Sudan" co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO_
+18:Australia,AUS,2022,26200987,1344251444393,384.078
+219:South Sudan,SSD,2022,11021175,,1.634
+222:Sudan,SDN,2022,49383344,,17.529
 
 **My question:** _TODO_
 
