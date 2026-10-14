@@ -65,9 +65,13 @@ head -n 5 co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO: paste what you actually got_
+country,iso_code,year,population,gdp,co2
+Afghanistan,AFG,2022,40578847,53303471617,10.170
+Africa,,2022,1445862695,,1459.114
+Africa (GCP),,2022,,,1459.103
+Albania,ALB,2022,2827614,36171005594,4.498
 
-**What I notice:** _TODO — your raw observations, in your own words_
+**What I notice:** I noticed that there are missing values and that Africa is listed as a country
 
 ## 2. Column names
 
@@ -79,9 +83,8 @@ a lot easier to scan than one long comma-separated row.
 ```
 
 **Output:**
-```bash
+
  country,iso_code,year,population,gdp,co2
-```
 
 ## 3. Column-by-column data type table
 
