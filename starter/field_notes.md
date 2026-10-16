@@ -150,7 +150,7 @@ dataset was collected, before trusting any conclusion drawn from it — ground
 at least one in the counts you just found.
 
 **My 2 concerns:**
-1. Why are there multiple missing values throughout the data set.
+1. Why are there multiple missing values throughout the data set. Was there any bias in the collection process?
 2. There are instances win teh country column where the data point is not actually a country such as "Africa".
 
 ## 6. Data-quality question for the source
