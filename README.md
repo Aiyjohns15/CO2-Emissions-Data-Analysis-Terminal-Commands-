@@ -10,6 +10,7 @@ Dataset Overview: The CO2 emissions 2022 dfataset contains information about pop
 | year | integer | whole numbers |
 | population | integer | whole numbers|
 | gdp | integer | whole numbers |
+Source: Github repo
 
 Findings: There are several missing values across the datset. There are also repeated values in the column 1 and continents listed where there should be country names. 
 
