@@ -12,8 +12,8 @@ Dataset Overview: The CO2 emissions 2022 dfataset contains information about pop
 | gdp | integer | whole numbers |
 Source: Github repo
 
-Findings: There are several missing values across the datset. There are also repeated values in the column 1 and continents listed where there should be country names. 
+Findings: There are several missing datapoints throughout the dataset. There are also repeated values in the column 1 and continents listed where there should be country names. 
 
-Data collection concerns: Was there sampling bias that caused there to be missing datapoints?
+Data collection concerns: Why is there missing regional data across the continents of Asia and Africa?
 
 Questions: What is the direct correlation between population and co2 emission? What is the relationship between co2 emission and gdp?
