@@ -1,7 +1,7 @@
 The Scenario: A climate-and-energy nonprofit needs to decide where to
 direct community-protection and climate-support efforts.
 
-Dataset Overview: The CO2 emissions 2022 dfataset contains information about population, ceconomic development, and co2 emissions for various countries
+Dataset Overview: The CO2 emissions 2022 dataset contains information about population, ceconomic development, and co2 emissions for various countries
 
 | Column | Inferred type | How I can tell |
 | --- | --- | ---
